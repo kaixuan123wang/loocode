@@ -1,0 +1,31 @@
+{
+  "name": "@loocode/builder",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "vue-tsc --noEmit && vp build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "vp preview"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "catalog:",
+    "@loocode/shared": "workspace:*",
+    "echarts": "catalog:",
+    "pinia": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "@vitejs/plugin-vue": "catalog:",
+    "eslint": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plus": "catalog:",
+    "vue-tsc": "catalog:"
+  }
+}

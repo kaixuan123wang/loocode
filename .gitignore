@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Logs and local runtime artifacts
+*.log
+.playwright-mcp/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Local environment files
+*.local
+
+# System files
+.DS_Store

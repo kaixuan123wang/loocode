@@ -1,0 +1,44 @@
+{
+  "name": "loocode",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vp build apps/builder",
+    "check": "vp check && pnpm format && pnpm spellcheck && pnpm stylelint",
+    "dev": "vp dev apps/builder",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "vp preview apps/builder",
+    "ready": "pnpm check && vp build apps/builder",
+    "spellcheck": "cspell .",
+    "stylelint": "stylelint \"**/*.{css,scss,sass,vue}\"",
+    "stylelint:fix": "stylelint \"**/*.{css,scss,sass,vue}\" --fix",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "@eslint/js": "catalog:",
+    "cspell": "catalog:",
+    "eslint": "catalog:",
+    "eslint-config-prettier": "catalog:",
+    "eslint-plugin-vue": "catalog:",
+    "globals": "catalog:",
+    "postcss-html": "catalog:",
+    "postcss-sass": "catalog:",
+    "postcss-scss": "catalog:",
+    "prettier": "catalog:",
+    "sass": "catalog:",
+    "stylelint": "catalog:",
+    "stylelint-config-standard-scss": "catalog:",
+    "stylelint-config-standard-vue": "catalog:",
+    "typescript-eslint": "catalog:",
+    "vite-plus": "catalog:",
+    "vue-eslint-parser": "catalog:"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "packageManager": "pnpm@11.1.2"
+}

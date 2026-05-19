@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en,zh-CN",
+  "useGitignore": true,
+  "files": ["**/*.{css,html,js,json,jsonc,md,sass,scss,ts,vue,yaml,yml}"],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    "dist-*",
+    "coverage",
+    ".vite",
+    ".turbo",
+    ".output",
+    "pnpm-lock.yaml",
+    "apps/**/public/**"
+  ],
+  "dictionaries": ["css", "html", "node", "npm", "typescript"],
+  "words": [
+    "arco",
+    "echarts",
+    "loocode",
+    "oxfmt",
+    "oxlint",
+    "pinia",
+    "rolldown",
+    "tsdown",
+    "viteplus",
+    "voidzero"
+  ]
+}
